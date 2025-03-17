@@ -32,12 +32,12 @@ def division(numerator, denominator):
 # Use the get_number function to ask the user for an index to access an element from a predefined list. 
 # Print out the value from the list, handling the index error if the user selects a non-existent index.
 def list(index):
+    list = "red", "Green", "blue", "yellow", "transparent"
     try:
-        X = get_number(index)
-        list = "red", "Green", "blue", "yellow", "transparent"
-        return list[X]
-          
+        print(list[get_number(index)])     
     except IndexError:
         ("NOT IN RANGE")
 
-print(list(3))
+list(input("Enter a number: "))
+
+x = ()
