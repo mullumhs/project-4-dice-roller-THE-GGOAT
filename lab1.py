@@ -40,4 +40,8 @@ def get_random_colour():
  
 
 # Call all of your functions to demonstrate that they work
+welcome_message()
+print_divider()
+get_number()
+print_divider()
 print(get_random_colour())
